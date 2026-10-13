@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 - Task 1: Personal Profile</title>
+    <style>
+        table {
+            width: 85%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #333333;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .photo-cell {
+            text-align: center;
+            width: 20%;
+        }
+        .photo-cell img {
+            width: 130px;
+            height: 150px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Personal Profile Information</h2>
+
+    <table>
+        <!-- Main Row with Photo and Basic Details -->
+        <tr>
+            <td rowspan="5" class="photo-cell">
+                <img src="profile.jpg" alt="Profile Photo"><br>
+                <strong>Photo</strong>
+            </td>
+            <th>Name</th>
+            <td>John Doe</td>
+        </tr>
+        <tr>
+            <th>Date of birth</th>
+            <td>15 August 2003</td>
+        </tr>
+        <tr>
+            <th>Religion</th>
+            <td>Islam</td>
+        </tr>
+        <tr>
+            <th>Race</th>
+            <td>Malay</td>
+        </tr>
+        <tr>
+            <th>Course and Institution</th>
+            <td>Bachelor of Computer Science (Web Technology), UTHM</td>
+        </tr>
+
+        <!-- Address Section -->
+        <tr>
+            <th rowspan="4">Address</th>
+            <th>Street</th>
+            <td>No. 12, Jalan Universiti 3</td>
+        </tr>
+        <tr>
+            <th>Town</th>
+            <td>Parit Raja</td>
+        </tr>
+        <tr>
+            <th>District</th>
+            <td>Batu Pahat</td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td>Johor</td>
+        </tr>
+
+        <!-- Contact Section -->
+        <tr>
+            <th rowspan="3">Contact</th>
+            <th>Mobile Phone</th>
+            <td>+60 12-345 6789</td>
+        </tr>
+        <tr>
+            <th>Social Media</th>
+            <td><a href="https://instagram.com" target="_blank">Instagram (@username)</a></td>
+        </tr>
+        <tr>
+            <th>Website</th>
+            <td><a href="https://github.com" target="_blank">Personal Portfolio</a></td>
+        </tr>
+
+        <!-- Additional Sections -->
+        <tr>
+            <th colspan="2">Programming skills</th>
+            <td>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Hobbies</th>
+            <td>
+                <ul>
+                    <li>Coding & Web Design</li>
+                    <li>Gaming</li>
+                    <li>Reading</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">2026 Wishlist</th>
+            <td>
+                <ol>
+                    <li>Achieve Dean's List for BIC 21203</li>
+                    <li>Master Full-Stack Web Frameworks</li>
+                    <li>Build and Publish a SaaS Project</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
