@@ -6,6 +6,8 @@
     <style>
         table {
             width: 100%;
+            max-width: 850px; /* Constrains table width to stay neatly on the left */
+            margin: 0;
             border-collapse: collapse;
             font-family: Arial, sans-serif;
         }
@@ -16,11 +18,11 @@
         }
         .photo-cell {
             text-align: right;
-            width: 30%;
+            width: 120px;
         }
         .photo-cell img {
-            width: 120px;
-            height: 150px;
+            width: 100px;
+            height: 120px;
             object-fit: cover;
             border: 1px solid black;
         }
@@ -33,16 +35,16 @@
 <body>
 
     <table>
-        <!-- Name,photo -->
+        <!-- Name & Photo -->
         <tr>
-            <td style="width: 30%;">Name</td>
+            <td style="width: 25%;">Name</td>
             <td>SHAMEER IZZAN HAFIZ BIN ROSLI</td>
             <td class="photo-cell">
                 <img src="img/hensem.jpg" alt="Profile Photo">
             </td>
         </tr>
 
-        <!-- birthdy,Religion,Race -->
+        <!-- Birthday, Religion, Race -->
         <tr>
             <td>Date of birth</td>
             <td colspan="2">25 FEBRUARY 2003</td>
@@ -56,10 +58,10 @@
             <td colspan="2">MELAYU</td>
         </tr>
 
-        <!-- Address -->
+        <!-- Address Section -->
         <tr>
             <td rowspan="4" style="vertical-align: middle;">Address</td>
-            <td style="width: 30%;">Street</td>
+            <td style="width: 25%;">Street</td>
             <td>11801 JLN MERPATI 3</td>
         </tr>
         <tr>
@@ -75,7 +77,7 @@
             <td>JOHOR</td>
         </tr>
 
-        <!-- Contact -->
+        <!-- Contact Section -->
         <tr>
             <td rowspan="3" style="vertical-align: middle;">Contact</td>
             <td>Mobile Phone</td>
@@ -83,14 +85,14 @@
         </tr>
         <tr>
             <td>Social Media</td>
-            <td></td>
+            <td><a href="https://instagram.com" target="_blank">Instagram</a></td>
         </tr>
         <tr>
             <td>Website</td>
-            <td></td>
+            <td><a href="https://github.com/londoncekodok" target="_blank">GitHub</a></td>
         </tr>
 
-        <!-- course -->
+        <!-- Course & Skills -->
         <tr>
             <td>Course and<br>Institution</td>
             <td colspan="2">BIS - BACHELOR OF COMPUTER SCIENCE</td>
@@ -99,7 +101,6 @@
             <td>Programming skills</td>
             <td colspan="2">
                 <ul>
-                    <li>HTML</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
